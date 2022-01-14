@@ -2,6 +2,7 @@ import React from "react";
 import "./LandingPage.scss";
 
 class LandingPage extends Component {
+
 	render() {
 		return (
 			<>
