@@ -14,7 +14,6 @@ class LandingPage extends Component {
 		e.target.reset()
 	};
 
-
 	render() {
 
 		const details = [
