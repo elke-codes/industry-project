@@ -1,6 +1,8 @@
 import React from "react";
 import { Component } from 'react';
 import "./LandingPage.scss";
+import userImage from "../assets/icons/logo.png"
+import logo from "../assets/icons/breaktime.svg"
 import SearchBar from "../components/SearchBar/SearchBar";
 import GameCard from "../components/GameCard/GameCard";
 import Footer from "../components/Footer/Footer";
@@ -20,7 +22,7 @@ class LandingPage extends Component {
 		const details = [
 			['Time', '5mins', '15mins', '30mins'],
 			['People', '2+', '4+', '6+'],
-			['Genre', 'Icebreaker']
+			['Genre', 'Icebreaker',]
 		]
 
 		return (
@@ -28,9 +30,9 @@ class LandingPage extends Component {
 				<header className="header">
 					<h2 className="header__logo"><img src={logo} alt="logo" /></h2>
 					<nav className="header__list">
-						<li className="header__item ">Game Room</li>
+						<li className="header__item header__item--active ">Game Room</li>
 						<li className="header__item">Evenets</li>
-						<li className="header__item header__item--active">Loaderboard</li>
+						<li className="header__item">Loaderboard</li>
 						<li className="header__item">Shop</li>
 					</nav>
 					<article className="user-card">
