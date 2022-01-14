@@ -1,6 +1,8 @@
 [{
   "image": "url",
-  "genre" : genre,
-  "title": title,
-  time: "time"
+  "genre" : "genre",
+  "title": "title",
+  "time": "time",
+  "players":"players",
+  "id":"uuid"
 }]
