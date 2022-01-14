@@ -11,7 +11,7 @@ const Loaderboard = () => {
 					<h2 className="header__logo"><img src={logo} alt="logo" /></h2>
 					<nav className="header__list">
 					<Link to='/'><li className="header__item ">Game Room</li></Link>
-						<li className="header__item">Evenets</li>
+						<li className="header__item">Events</li>
 						<li className="header__item header__item--active">Loaderboard</li>
 						<li className="header__item">Shop</li>
 					</nav>
