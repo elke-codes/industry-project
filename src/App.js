@@ -1,20 +1,22 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.scss";
-import Lobby from "./components/Lobby/Lobby";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
+import GameScreen from "./components/GameScreen/GameScreen";
+import Loaderboard from "./pages/Loaderboard/Loaderboard";
+import Lobby from "./components/Lobby/Lobby";
 
 function App() {
 	return (
-		// <BrowserRouter>
-		// 	<Switch>
-		// 		<Route path="/" component={LandingPage} />
-		// 		<Route path="/lobby" component={Lobby} />
-
-		// 	</Switch>
-		// </BrowserRouter>
-
-		<LandingPage />
-		// <Lobby />
+		<div className="App">
+			<GameScreen />
+			<BrowserRouter>
+				<Switch>
+					<Route path="/" exact component={LandingPage} />
+					<Route path="/Loaderboard" component={Loaderboard} />
+				</Switch>
+			</BrowserRouter>
+		</div>
 	);
 }
 
