@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div className="App">
 			{/* <LandingPage /> */}
-			<GameCard />
+			{/* <GameCard />s */}
 		</div>
 	);
 }
