@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./LandingPage.scss";
 import userImage from "../assets/icons/logo.png";
 import logo from "../assets/icons/breaktime.svg";
@@ -33,8 +33,10 @@ class LandingPage extends Component {
 						<li className="header__item header__item--active ">
 							Game Room
 						</li>
-						<li className="header__item">Evenets</li>
-						<Link to='/Loaderboard'><li className="header__item">Loaderboard</li></Link>
+						<li className="header__item">Events</li>
+						<Link to="/Loaderboard">
+							<li className="header__item">Loaderboard</li>
+						</Link>
 						<li className="header__item">Shop</li>
 					</nav>
 					<article className="user-card">
@@ -47,27 +49,31 @@ class LandingPage extends Component {
 						<h2 className="user-card__point">Points 2630</h2>
 					</article>
 				</header>
-					<div className="Landing__body" >
-						<main className="game-room">
-							<h1 className="game-room__header">Game Room</h1>
-							<p className="game-room__banner">
-								Browse our collection of social mulltiplayer games for
-								your team to enjoy!
-							</p>
-							<SearchBar className="game-room__search"
-								submitHandler={this.submitHandler}
-								sortDetails={details}
-							/>
-							{/* games.map---> */}
-							{/* <GameCard /> */}
-							<GameCard className="game-room__cards" gameData={gameData} />
-						</main>
-						<footer className="game-room__footer">
-							<Footer />
-						</footer>
-					</div>
+				<div className="Landing__body">
+					<main className="game-room">
+						<h1 className="game-room__header">Game Room</h1>
+						<p className="game-room__banner">
+							Browse our collection of social mulltiplayer games
+							for your team to enjoy!
+						</p>
+						<SearchBar
+							className="game-room__search"
+							submitHandler={this.submitHandler}
+							sortDetails={details}
+						/>
+						{/* games.map---> */}
+						{/* <GameCard /> */}
+						<GameCard
+							className="game-room__cards"
+							gameData={gameData}
+						/>
+					</main>
+					<footer className="game-room__footer">
+						<Footer />
+					</footer>
+				</div>
 			</div>
-		)
+		);
 	}
 }
 
