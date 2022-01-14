@@ -1,0 +1,6 @@
+[{
+  "image": "url",
+  "genre" : genre,
+  "title": title,
+  time: "time"
+}]
