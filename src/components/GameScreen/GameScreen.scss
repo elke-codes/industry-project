@@ -21,6 +21,10 @@
         background-image: url('../../assets/icons/arrow-back.png');
         background-repeat: no-repeat;
         background-position: 15%;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+        }
     }
     
     &__buttons-mic-camera{

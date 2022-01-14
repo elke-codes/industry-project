@@ -82,12 +82,18 @@ const Lobby = () => {
 						</p>
 					</div>
 					<div className="lobby-right__buttons-info">
+						<Link to="/gamescreen">
+							<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
+								Start Game
+							</button>
+						</Link>
 						<button className="lobby-right__button-info">
 							How to Play
 						</button>
 						<button className="lobby-right__button-info">
 							Settings
 						</button>
+
 					</div>
 				</div>
 				<div className="lobby-right__main">
@@ -110,11 +116,7 @@ const Lobby = () => {
 							</button>
 						</div>
 
-						<Link to="/gamescreen">
-							<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
-								Start Game
-							</button>
-						</Link>
+
 					</div>
 				</div>
 			</article>
