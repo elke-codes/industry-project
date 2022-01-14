@@ -17,11 +17,12 @@
 		outline: none;
 	}
 
-	&__icon-search {
-		width: 1.1875rem;
-		height: 1.1875rem;
-		object-fit: cover;
-	}
+  &__icon-search {
+    width: 1.1875rem;
+    height: 1.1875rem;
+    object-fit: cover;
+    
+  }
 
 	&__input {
 		background-color: #ebebeb;
@@ -49,22 +50,23 @@
 }
 
 .sort-game {
-	@include flex(space-around, center, row, nowrap);
-	margin-right: auto;
+  @include flex(space-around, center, row, nowrap);
+  margin-right: auto;
+  
+  &__select-option {
+    gap: 18px;
+    width: 120px;
+    height: 38px;
+    margin-right: 1.2rem;
+    background-color: #452a89;
+    color: #ffffff;
+    border-radius: 20px;
+    @include header-h6;
+    padding: 7px 17px 9px 18px;
+    background-image: url("../../assets/icons/arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: 91%;
+    -webkit-appearance: none;
+  }
 
-	&__select-option {
-		gap: 18px;
-		width: 120px;
-		height: 38px;
-		margin-right: 1.2rem;
-		background-color: #452a89;
-		color: #ffffff;
-		border-radius: 20px;
-		@include header-h6;
-		padding: 7px 17px 9px 18px;
-		background-image: url("../../assets/icons/arrow-down.png");
-		background-repeat: no-repeat;
-		background-position: 91%;
-		-webkit-appearance: none;
-	}
 }
