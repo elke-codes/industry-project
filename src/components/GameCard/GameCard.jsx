@@ -29,7 +29,7 @@ const GameCard = ({ gameData }) => {
 										alt="human icon"
 										className="game-card__player-icon"
 									/>{" "}
-									{game.players}+
+									{game.players}
 								</p>
 							</div>
 						</div>
