@@ -9,11 +9,12 @@ import Lobby from "./components/Lobby/Lobby";
 function App() {
 	return (
 		<div className="App">
-			<GameScreen />
+			{/* <GameScreen /> */}
 			<BrowserRouter>
 				<Switch>
 					<Route path="/" exact component={LandingPage} />
 					<Route path="/Loaderboard" component={Loaderboard} />
+					<Route path="/gamescreen" component={GameScreen} />
 				</Switch>
 			</BrowserRouter>
 		</div>
