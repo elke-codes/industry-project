@@ -1,5 +1,5 @@
 import './SearchBar.scss';
-import search from '../../assets/search.png';
+import search from '../../assets/icons/search.png';
 
 
 const SearchBar = (props) => {
