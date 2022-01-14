@@ -9,6 +9,7 @@ import Footer from "../components/Footer/Footer";
 class LandingPage extends Component {
 
 
+
 	submitHandler = (e) => {
 		e.preventDefault()
 		e.target.reset()
