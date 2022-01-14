@@ -1,6 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.scss";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import GameScreen from "./components/GameScreen/GameScreen";
 import Loaderboard from "./pages/Loaderboard/Loaderboard";
@@ -15,6 +14,7 @@ function App() {
 					<Route path="/" exact component={LandingPage} />
 					<Route path="/Loaderboard" component={Loaderboard} />
 					<Route path="/gamescreen" component={GameScreen} />
+					<Route path="/lobby" component={Lobby} />
 				</Switch>
 			</BrowserRouter>
 		</div>

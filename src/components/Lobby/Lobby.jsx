@@ -4,14 +4,21 @@ import arrowLeft from "../../assets/icons/arrow-left.svg";
 import microphone from "../../assets/icons/microphone.svg";
 import camera from "../../assets/icons/camera.svg";
 import profile1 from "../../assets/images/profile1.png";
+import { Link } from "react-router-dom";
 const Lobby = () => {
 	return (
 		<section className="lobby">
 			<article className="lobby-left">
-				<button className="lobby-left__back-button">
-					<img src={arrowLeft} alt="" className="lobby-left__arrow" />
-					Back
-				</button>
+				<Link to="/">
+					<button className="lobby-left__back-button">
+						<img
+							src={arrowLeft}
+							alt=""
+							className="lobby-left__arrow"
+						/>
+						Back
+					</button>
+				</Link>
 				<div className="lobby-left__player">
 					<img
 						src={profile1}
@@ -102,9 +109,12 @@ const Lobby = () => {
 								/>
 							</button>
 						</div>
-						<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
-							Start Game
-						</button>
+
+						<Link to="/gamescreen">
+							<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
+								Start Game
+							</button>
+						</Link>
 					</div>
 				</div>
 			</article>
