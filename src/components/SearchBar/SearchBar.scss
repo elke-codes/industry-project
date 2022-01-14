@@ -21,6 +21,7 @@
     width: 1.1875rem;
     height: 1.1875rem;
     object-fit: cover;
+    
   }
 
     &__input {
@@ -62,7 +63,7 @@
     border-radius: 20px;
     @include header-h6;
     padding: 7px 17px 9px 18px;
-    background-image: url("../../assets/arrow-down.png");
+    background-image: url("../../assets/icons/arrow-down.png");
     background-repeat: no-repeat;
     background-position: 91%;
     -webkit-appearance: none;
