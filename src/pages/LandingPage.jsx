@@ -5,6 +5,7 @@ import logo from "../assets/icons/breaktime.svg"
 
 class LandingPage extends Component {
 
+	
 	render() {
 		return (
 			< div className="LandingPage">
