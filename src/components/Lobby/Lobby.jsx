@@ -36,6 +36,24 @@ const Lobby = () => {
 					</ul>
 				</div>
 			</article>
+			<article className="lobby-right">
+				<div className="lobby-right__header">
+          <h1 className="lobby-right__title">Cards Against Humanity</h1>
+          <p className="lobby-right__copy">
+            A fill-in-the-blank party game that turns your awkward
+            personality and lackluster social skills into hours of fun!
+            Wow.
+          </p>
+          <div className="lobby-right__buttons-info">
+            <button className="lobby-right__button-info">How to Play</button>
+            <button className="lobby-right__button-info">Settings</button>
+          </div>
+        </div>ton>
+					<button className="lobby-right__button-info">
+						Settings
+					</button>
+				</div>
+			</article>
 		</section>
 	);
 };
