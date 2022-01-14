@@ -146,13 +146,22 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		align-items: flex-end;
+
+		align-items: flex-start;
 	}
 	&__title {
+		font-size: 48px;
+		color: white;
+		margin-bottom: 1rem;
 	}
 	&__copy {
+		color: white;
+
+		font-size: 18px;
 	}
 	&__buttons-info {
+		align-self: flex-end;
+		// margin-bottom: 1rem;
 	}
 	&__button-info {
 		@include button;
@@ -161,9 +170,7 @@
 	}
 	&__main {
 		// @extend .lobby-right;
-		background-image: url("../../assets/images/lobby-bg-ppl.png");
-		background-size: cover;
-		background-repeat: no-repeat;
+
 		// background-position: center;
 		// width: 100%;
 		// // width: 944px;
@@ -171,6 +178,12 @@
 	}
 	&__interaction {
 		// padding: 2rem;
+
+		background-image: url("../../assets/images/lobby-bg-ppl.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
 		height: 100%;
 
 		display: flex;
