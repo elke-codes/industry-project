@@ -19,7 +19,7 @@ class LandingPage extends Component {
 		const details = [
 			["Time", "5mins", "15mins", "30mins"],
 			["People", "2+", "4+", "6+"],
-			["Genre", "Icebreaker"]
+			["Genre", "Words", "Drawing", "Acting", "Trivia"]
 		];
 
 		return (
