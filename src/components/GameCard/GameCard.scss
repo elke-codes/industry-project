@@ -1,7 +1,9 @@
 /// --- GAMECARD SCSS --- ///
 @use "../../styles/partials/global" as *;
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-
+.games-container {
+	display: flex;
+}
 .game-card {
 	margin: 2rem;
 	border-radius: 30px;
@@ -36,13 +38,15 @@
 	&__title {
 		font-size: 24px;
 		line-height: 29px;
-		width: fit-content;
+		// width: fit-content;
 		padding-bottom: 0.8rem;
 		font-weight: 600;
+		align-self: flex-start;
 	}
 	&__info {
 		display: flex;
 		align-items: center;
+
 		font-weight: bold;
 		font-size: 20px;
 		line-height: 22px;
@@ -54,14 +58,13 @@
 		padding: 0.5rem 1rem;
 		border-radius: 30px;
 		margin-right: 1rem;
-		padding: 10px 20px;
 	}
 	&__players {
 		display: flex;
 		align-items: center;
 		background-color: #5556ad;
 		padding: 0.5rem 1rem;
-		padding: 10px 20px;
+
 		border-radius: 30px;
 	}
 

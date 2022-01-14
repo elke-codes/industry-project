@@ -1,25 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
+
 import "./LandingPage.scss";
+import GameCard from "../components/GameCard/GameCard";
+import gameData from "../data/games.json";
 
 class LandingPage extends Component {
+	// state = {
+	// 	gameData: []
+	// };
+
+	// componentDidMount() {
+	// 	this.setState = { gameData };
+	// }
 	render() {
+		// if ((this.state.gameData.length = 0)) return <h1>Loading...</h1>;
 		return (
 			<>
-				<header>
-					<nav></nav>
-				</header>
-				<main>
-					<h1>Game Room</h1>
-					<p>description Lorem ipsum dolor, sit amet consectetur </p>
-					<SearchBar />
-					{/* games.map---> */}
-					<GameCard />
-				</main>
-				<footer>
-					<img src="" alt="" />
-					<h2>1</h2>
-					<img src="" alt="" />
-				</footer>
+				<GameCard gameData={gameData} />
 			</>
 		);
 	}

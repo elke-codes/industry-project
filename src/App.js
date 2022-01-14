@@ -1,11 +1,10 @@
 import "./App.scss";
-import GameCard from "./components/GameCard/GameCard";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
 	return (
 		<div className="App">
-			{/* <LandingPage /> */}
-			{/* <GameCard />s */}
+			<LandingPage />
 		</div>
 	);
 }
