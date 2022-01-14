@@ -28,7 +28,7 @@ const GameScreen = () => {
                 <div className="game-screen__task">
                     <p className="game-screen__content-task">Let me tell you about my startup. It is basically ________ for __________.</p>
                 </div>
-                {userData.map((detail, { i }) => {
+                {userData.map((detail, i) => {
                     return <UserCard name={detail.name} score={detail.score} img={detail.img} icon={detail.icon} key={i} />
                 })}
             </div>

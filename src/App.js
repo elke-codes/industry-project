@@ -7,11 +7,11 @@ import Loaderboard from "./pages/Loaderboard/Loaderboard"
 function App() {
 	return (
 		<div className="App">
-			<GameScreen />
 			<BrowserRouter>
 				<Switch>
 					<Route path="/" exact component={LandingPage} />
 					<Route path="/Loaderboard"  component={Loaderboard} />
+					<Route path="/gamescreen" component={GameScreen} />
 				</Switch>
       </BrowserRouter>
 		</div>
