@@ -1,0 +1,200 @@
+/// --- LOBBY.SCSS --- ///
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+* {
+	margin: 0;
+}
+.lobby {
+	display: flex;
+	margin: 2rem;
+	// height: 100%;
+	color: rgba(39, 39, 39, 1);
+}
+.lobby-left {
+	width: 30%;
+	margin: 0 2rem;
+
+	&__back-button {
+		@include button;
+		background: linear-gradient(
+			rgba(62, 58, 248, 1),
+			rgba(137, 56, 240, 1)
+		);
+
+		border-radius: 20px;
+		color: white;
+		font-size: 20px;
+		// line-height: 22px;
+		display: flex;
+		align-items: center;
+		padding: 0.5rem 1rem;
+		@include button;
+	}
+	&__arrow {
+		padding-right: 0.2rem;
+		width: 10px;
+		height: 16px;
+	}
+	&__player {
+		/* margin: 2rem; */
+		width: 365px;
+		height: 189px;
+		font-size: 18px;
+		line-height: 22px;
+		color: #272727;
+		background: linear-gradient(
+			153.89deg,
+			#fe5923 2.06%,
+			#bf5079 29.17%,
+			#7844d7 65.29%,
+			#004fe8 98.9%
+		);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1rem;
+		border-radius: 30px;
+		margin: 2rem 0;
+	}
+	&__player-avatar {
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+	}
+	&__player-info {
+		display: flex;
+		flex-direction: column;
+	}
+	&__player-info-rank {
+		border-radius: 9px;
+		margin-bottom: 1rem;
+		background-color: #fff;
+		padding: 1rem;
+	}
+	&__player-info-points {
+		border-radius: 9px;
+		background-color: #fff;
+		display: flex;
+		justify-content: space-between;
+		padding: 1rem;
+	}
+
+	&__player-container {
+		// width: 365px;
+		// height: 602px;
+	}
+	&__players-header {
+		font-size: 24px;
+		line-height: 29px;
+		color: #fff;
+	}
+	&__player-list {
+		background-color: rgba(32, 34, 145, 1);
+		border-radius: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		padding: 1rem;
+		color: rgba(39, 39, 39, 1);
+	}
+	&__player-name {
+		margin: 0.5rem;
+		background: #ffffff;
+		border-radius: 30px;
+		width: 328px;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding-left: 2rem;
+
+		&--empty {
+			background-color: rgba(255, 255, 255, 0.6);
+		}
+	}
+	&__player-number {
+		background-color: rgba(39, 39, 39, 1);
+		border-radius: 50%;
+		color: #fff;
+		margin-right: 1rem;
+		width: 38px;
+		height: 38px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.lobby-right {
+	// width: 944px;
+	width: 100%;
+	height: 62vh;
+
+	&__header-container {
+	}
+	&__header {
+		background: linear-gradient(
+			153.89deg,
+			#fe5923 2.06%,
+			#bf5079 29.17%,
+			#7844d7 65.29%,
+			#004fe8 98.9%
+		);
+
+		height: 38%;
+		padding: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__title {
+	}
+	&__copy {
+	}
+	&__buttons-info {
+	}
+	&__button-info {
+		@include button;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	&__main {
+		// @extend .lobby-right;
+		background-image: url("../../assets/images/lobby-bg-ppl.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		// background-position: center;
+		// width: 100%;
+		// // width: 944px;
+		height: inherit;
+	}
+	&__interaction {
+		// padding: 2rem;
+		height: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__interaction-top {
+		display: flex;
+		margin: 2rem;
+	}
+	&__interaction-button {
+		@include button;
+		width: 70px;
+		height: 70px;
+		border-radius: 20px;
+		&--start {
+			@include button;
+			margin: 2rem;
+			// width: 247px;
+			// align-self: flex-end;
+			// padding-bottom: 2px;
+		}
+	}
+	&__interaction-icon {
+	}
+}
