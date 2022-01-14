@@ -13,8 +13,8 @@ function App() {
 		// 	</Switch>
 		// </BrowserRouter>
 
-		// <LandingPage />
-		<Lobby />
+		<LandingPage />
+		// <Lobby />
 	);
 }
 
