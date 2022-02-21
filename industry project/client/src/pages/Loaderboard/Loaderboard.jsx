@@ -15,7 +15,7 @@ const Loaderboard = () => {
 					<Link to="/">
 						<li className="header__item ">Game Room</li>
 					</Link>
-					<li className="header__item">Evenets</li>
+					<li className="header__item">Events</li>
 					<li className="header__item header__item--active">
 						Leaderboard
 					</li>
