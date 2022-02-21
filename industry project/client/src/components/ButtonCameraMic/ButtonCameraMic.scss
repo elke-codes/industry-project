@@ -1,0 +1,17 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.button {
+    @include flex(center, center, row, nowrap);
+    width: 4.1875rem;
+    height: 4.1875rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 14px;
+    cursor: pointer;
+
+    &__real-button{
+        border: none;
+        background: rgba(255, 255, 255, 0);
+    }
+}
