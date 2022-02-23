@@ -2,7 +2,7 @@
 ### UX WEB DEVELOPMENT COLLABORATION FOR BRAINSTATION INDUSTRY HACKATHON
 ###### Our team was crowned the winner of the hackathon
 
-This project was made in for a 24 hour hackathon during the BrainStation UX and Web Development Bootcamps. 
+This project was made for a 24 hour hackathon during the BrainStation UX and Web Development Bootcamps. 
 We were offered a problem by industy partners: 
 >"How might we use a digital solution to address the challenges of a post-pandemic world for professionals and businesses in the BC area?"
 
