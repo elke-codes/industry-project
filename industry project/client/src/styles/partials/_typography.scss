@@ -1,0 +1,78 @@
+@use "./variables" as *;
+/// --- TYPOGRAPHY.SCSS --- ///
+@use "../partials/mixins" as *;
+// FONTS //
+// @font-face {
+// 	font-family: "Titillium Web";
+// 	src: url("../../assets/fonts/TitilliumWeb-SemiBold.woff2") format("woff2"),
+// 		url("../../assets/fonts/TitilliumWeb-SemiBold.woff") format("woff");
+// 	font-weight: 600;
+// 	font-style: normal;
+// 	font-display: swap;
+// }
+
+// @font-face {
+// 	font-family: "Titillium Web";
+// 	src: url("../../assets/fonts/TitilliumWeb-Regular.woff2") format("woff2"),
+// 		url("../../assets/fonts/TitilliumWeb-Regular.woff") format("woff");
+// 	font-weight: normal;
+// 	font-style: normal;
+// 	font-display: swap;
+// }
+
+// TYPOGRAPHY STYLING //
+// h1
+@mixin page-header {
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 600;
+}
+
+// h2
+@mixin subheader {
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 600;
+}
+
+// h3
+@mixin header-h3 {
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 600;
+}
+
+//  h4
+@mixin header-h4 {
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 600;
+}
+
+// h5
+@mixin header-h5 {
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 600;
+}
+
+// h6
+@mixin header-h6 {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+// h7
+@mixin header-h7 {
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+// body
+@mixin body {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+}

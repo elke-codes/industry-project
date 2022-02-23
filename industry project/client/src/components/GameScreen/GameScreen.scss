@@ -1,0 +1,77 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.game-screen {
+	padding: 2.8125rem 3rem 3rem;
+	background: linear-gradient(63.18deg, #16151a 0%, #413a70 100%);
+
+	&__button-containers {
+		width: 100%;
+		@include flex(space-between, center, row, nowrap);
+	}
+
+	&__button-back {
+		@include header-h4;
+		color: #ffffff;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 30px;
+		padding: 24px 50px;
+		border: none;
+		background-image: url("../../assets/icons/arrow-back.png");
+		background-repeat: no-repeat;
+		background-position: 15%;
+	}
+
+	&__buttons-mic-camera {
+		@include flex(space-between, center, row, nowrap);
+		width: 12%;
+	}
+
+	&__lobby {
+		max-height: 809px;
+		margin: 84px 126px 0;
+		border-radius: 50%;
+		background-color: #8e899d;
+		box-shadow: 0px 60px 15px -40px#9255B8, 0px 70px 40px -20px#5559B8;
+		// width: 1129px;
+		height: 809px;
+	}
+
+	&__task {
+		padding: 39px;
+		width: 209px;
+		height: 350px;
+		background: #2b2b2b;
+		border: 1px solid #272727;
+		border-radius: 14px;
+		margin: 0 auto;
+		position: relative;
+		top: 200px;
+	}
+
+	&__content-task {
+		color: #ffffff;
+		@include header-h3;
+		width: 100%;
+	}
+
+	&__task-option {
+		@include flex(space-between, center, row, wrap);
+		width: 60%;
+		position: absolute;
+		left: 290px;
+		bottom: -40px;
+	}
+
+	&__option-card {
+		@include header-h3;
+		padding: 35px;
+		background-color: #ffffff;
+		border: 1px solid #272727;
+		border-radius: 14px 14px 0px 0px;
+		max-width: 209px;
+		min-width: 209px;
+		height: 120px;
+	}
+}
