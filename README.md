@@ -33,11 +33,11 @@ npm start
 ### Contributors:
 WEB DEVELOPMENT : 
 
-- AHMED RADEEF https://github.com/AhmedRadeef
-- VERANIKA KARPAVA https://github.com/veranika-karpava
-- ELKE DICK https://github.com/elke-codes
+- Ahmed Radeef https://github.com/AhmedRadeef
+- Veranika Karpava https://github.com/veranika-karpava
+- Elke Dick https://github.com/elke-codes
 
 UX DESIGNERS:
-- AIMER OCAMPO https://www.linkedin.com/in/aimer-ocampo
-- RACHEL WONG https://www.linkedin.com/in/rachelwongdesigns
-- DAKOTA NORTON https://www.linkedin.com/in/dakota-norton
+- Aimer Ocampo https://www.linkedin.com/in/aimer-ocampo
+- Rachel Wong https://www.linkedin.com/in/rachelwongdesigns
+- Dakota Norton https://www.linkedin.com/in/dakota-norton
