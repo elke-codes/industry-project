@@ -72,12 +72,17 @@ body {
 	position: relative;
 	cursor: pointer;
 }
-.chat-window .chat-header p {
+.chat-window p {
 	display: block;
 	padding: 0 1em 0 2em;
 	color: #fff;
 	font-weight: 700;
 	line-height: 45px;
+}
+
+.chat-header p {
+	display: flex;
+	justify-content: space-between;
 }
 
 .chat-window .chat-body {
@@ -200,5 +205,5 @@ body {
 	opacity: 0 !important;
 }
 
-.chat-header {
+.chat-close {
 }
