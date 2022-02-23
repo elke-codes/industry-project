@@ -1,14 +1,10 @@
 .Chat {
 	width: 100vw;
-	/* height: 100vh; */
-	background: #fff;
 	color: #212121;
 	font-family: "Open Sans", sans-serif;
-	display: grid;
+	display: flex;
 	place-items: center;
 	justify-content: space-between;
-	/* display: flex;
-	justify-content: flex-end; */
 	position: absolute;
 }
 body {
