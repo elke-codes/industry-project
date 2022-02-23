@@ -15,7 +15,7 @@ The UX team came with the following solution:
 
 The Web Development created a MVP of their vision, including a working chat, which you can find here.
 
-# To run the project
+### To run the project
 
 Download the files and open them with your favorite code editor.
 Then in the terminal write: 
