@@ -121,7 +121,14 @@ const Chat = () => {
 			{showChat ? (
 				<div className="chat-window">
 					<div className="chat-header">
-						<p>Live Chat</p>
+						<p>
+							Live Chat{" "}
+							<span
+								className="chat-close"
+								onClick={() => setShowChat(false)}>
+								X
+							</span>
+						</p>
 					</div>
 					{/* where messagecontent is the data received back from the server  */}
 					<div className="chat-body">

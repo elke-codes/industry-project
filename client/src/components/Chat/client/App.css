@@ -1,15 +1,9 @@
 .Chat {
-	width: 100vw;
-	/* height: 100vh; */
-	background: #fff;
 	color: #212121;
 	font-family: "Open Sans", sans-serif;
-	display: grid;
+	display: flex;
 	place-items: center;
 	justify-content: space-between;
-	/* display: flex;
-	justify-content: flex-end; */
-	position: absolute;
 }
 body {
 	margin: 0%;
@@ -63,6 +57,7 @@ body {
 	border-radius: 30px;
 	position: absolute;
 	top: 800px;
+	left: 1150px;
 }
 
 .chat-window p {
@@ -76,12 +71,17 @@ body {
 	position: relative;
 	cursor: pointer;
 }
-.chat-window .chat-header p {
+.chat-window p {
 	display: block;
 	padding: 0 1em 0 2em;
 	color: #fff;
 	font-weight: 700;
 	line-height: 45px;
+}
+
+.chat-header p {
+	display: flex;
+	justify-content: space-between;
 }
 
 .chat-window .chat-body {
@@ -124,6 +124,7 @@ body {
 	padding-left: 5px;
 	overflow-wrap: break-word;
 	word-break: break-word;
+	font-size: 1rem;
 }
 
 #you {
@@ -204,5 +205,5 @@ body {
 	opacity: 0 !important;
 }
 
-.chat-header {
+.chat-close {
 }

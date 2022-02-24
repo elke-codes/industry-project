@@ -2,25 +2,25 @@
     {
         "name": "You",
         "score": 4,
-        "img": "https://lh3.googleusercontent.com/KykrRVSDzSMUj6rSzbCvVvrUzIRFVLvs0tLr0VAgS8hgp9LVG0QOZMcO6QksccZEGP62cQ=s85",
+        "img": "/images/profile1.png",
         "icon": null
     },
     {
         "name": "June M",
         "score": 2,
-        "img": "https://lh3.googleusercontent.com/PfU9nOYROFivKiRkLxnQlgfRzOGWzwKaQ4z6soI-OQyZnhS_B-1hYej_9G346y1De-5P=s85",
-        "icon": "https://lh3.googleusercontent.com/pNFxdJRnVh_Dvf4CZWk-oEq-UBQokD6jxOibQfsFVFSr-LsFq4uyEH3J071v7RdnX8sDqQ=s136"
+        "img": "/images/profile5.png",
+        "icon": "/images/1200px-Cards_Against_Humanity_logo 1.png"
     },
     {
         "name": "Miguel R",
         "score": 3,
-        "img": "https://lh3.googleusercontent.com/gn5n_0rLENrosazXmA2MJLVr9LDxKWvWvAA5Hm0cO1NldXdhjkjjYcp0P1T_5n5yj6vT=s85",
-        "icon": "https://lh3.googleusercontent.com/pNFxdJRnVh_Dvf4CZWk-oEq-UBQokD6jxOibQfsFVFSr-LsFq4uyEH3J071v7RdnX8sDqQ=s136"
+        "img": "/images/profile2.png",
+        "icon": "/images/1200px-Cards_Against_Humanity_logo 1.png"
     },
     {
         "name": "Tina F",
         "score": 1,
-        "img": "https://lh3.googleusercontent.com/9IcBqYchoXlctolDBMYeV1RYd-pH5g-Yr-QCVDRVS2d5_Fc3fJdEE3QllUAURDaCtlVx=s85",
-        "icon": "https://lh3.googleusercontent.com/pNFxdJRnVh_Dvf4CZWk-oEq-UBQokD6jxOibQfsFVFSr-LsFq4uyEH3J071v7RdnX8sDqQ=s136"
+        "img": "/images/profile3.png",
+        "icon": "/images/1200px-Cards_Against_Humanity_logo 1.png"
     }
 ]

@@ -35,7 +35,7 @@ class LandingPage extends Component {
 						</li>
 						<li className="header__item">Events</li>
 						<Link to="/Loaderboard">
-							<li className="header__item">Loaderboard</li>
+							<li className="header__item">Leaderboard</li>
 						</Link>
 						<li className="header__item">Shop</li>
 					</nav>

@@ -5,6 +5,7 @@ import GameScreen from "./components/GameScreen/GameScreen";
 import Loaderboard from "./pages/Loaderboard/Loaderboard";
 import Lobby from "./components/Lobby/Lobby";
 import Chat from "./components/Chat/client/Chat";
+import WinnerScreen from "./components/WinnerSreen/WinnerScreen";
 import io from "socket.io-client";
 import { useState } from "react";
 const socket = io.connect("http://localhost:3001");
@@ -37,6 +38,8 @@ function App() {
 					<Route path="/Loaderboard" component={Loaderboard} />
 					<Route path="/gamescreen" component={GameScreen} />
 					<Route path="/lobby" component={Lobby} />
+					<Route path="/winner" component={WinnerScreen} />
+
 					<Chat />
 				</Switch>
 			</BrowserRouter>

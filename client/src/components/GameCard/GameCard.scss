@@ -2,78 +2,78 @@
 @use "../../styles/partials/global" as *;
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 .games-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 73.7rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 73.7rem;
 }
 .game-card {
-  margin: 2rem 2rem 2rem 0;
-  border-radius: 30px;
-  width: 329px;
-  height: 369px;
-  background-color: #202291;
-  color: #ffffff;
-  font-family: "Inter", sans-serif;
-  // font-weight: 600;
+	margin: 2rem 1rem 2rem 0;
+	border-radius: 30px;
+	width: 329px;
+	height: 369px;
+	background-color: #202291;
+	color: #ffffff;
+	font-family: "Inter", sans-serif;
+	// font-weight: 600;
 
-  &__image {
-    height: 204px;
-    width: 100%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-  }
-  &__info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 25px;
-    padding-top: 0.7rem;
-  }
+	&__image {
+		height: 204px;
+		width: 100%;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+	}
+	&__info-container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 25px;
+		padding-top: 0.7rem;
+	}
 
-  &__genre {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.64);
-    font-size: 15px;
-    line-height: 18px;
-    padding-bottom: 0.7rem;
-  }
-  &__title {
-    font-size: 24px;
-    line-height: 29px;
-    // width: fit-content;
-    padding-bottom: 0.8rem;
-    font-weight: 600;
-    align-self: flex-start;
-  }
-  &__info {
-    display: flex;
-    align-items: center;
+	&__genre {
+		text-transform: uppercase;
+		color: rgba(255, 255, 255, 0.64);
+		font-size: 15px;
+		line-height: 18px;
+		padding-bottom: 0.7rem;
+	}
+	&__title {
+		font-size: 24px;
+		line-height: 29px;
+		// width: fit-content;
+		padding-bottom: 0.8rem;
+		font-weight: 600;
+		align-self: flex-start;
+	}
+	&__info {
+		display: flex;
+		align-items: center;
 
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 22px;
-    padding-bottom: 0.5rem;
-    font-weight: 400;
-  }
-  &__time {
-    background-color: #5556ad;
-    padding: 0.5rem 1rem;
-    border-radius: 30px;
-    margin-right: 1rem;
-  }
-  &__players {
-    display: flex;
-    align-items: center;
-    background-color: #5556ad;
-    padding: 0.5rem 1rem;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 22px;
+		padding-bottom: 0.5rem;
+		font-weight: 400;
+	}
+	&__time {
+		background-color: #5556ad;
+		padding: 0.5rem 1rem;
+		border-radius: 30px;
+		margin-right: 1rem;
+	}
+	&__players {
+		display: flex;
+		align-items: center;
+		background-color: #5556ad;
+		padding: 0.5rem 1rem;
 
-    border-radius: 30px;
-  }
+		border-radius: 30px;
+	}
 
-  &__player-icon {
-    width: 22px;
-    height: 22px;
-    padding-right: 0.4rem;
-  }
+	&__player-icon {
+		width: 22px;
+		height: 22px;
+		padding-right: 0.4rem;
+	}
 }
