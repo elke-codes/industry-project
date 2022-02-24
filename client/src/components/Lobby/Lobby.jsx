@@ -82,6 +82,11 @@ const Lobby = () => {
 						</p>
 					</div>
 					<div className="lobby-right__buttons-info">
+						<Link to="/gamescreen">
+							<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
+								Start Game
+							</button>
+						</Link>
 						<button className="lobby-right__button-info">
 							How to Play
 						</button>
@@ -109,17 +114,10 @@ const Lobby = () => {
 								/>
 							</button>
 						</div>
-
-						<Link to="/gamescreen">
-							<button className="lobby-right__interaction-bottom lobby-right__interaction-button--start">
-								Start Game
-							</button>
-						</Link>
 					</div>
 				</div>
 			</article>
 		</section>
 	);
 };
-
 export default Lobby;

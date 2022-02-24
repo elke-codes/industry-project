@@ -19,9 +19,7 @@ const GameCard = ({ gameData }) => {
 								className="game-card__image"
 							/>
 							<div className="game-card__info-container">
-								<p className="game-card__genre">
-									{game.genre}helo
-								</p>
+								<p className="game-card__genre">{game.genre}</p>
 								<h4 className="game-card__title">
 									{game.title}
 								</h4>
